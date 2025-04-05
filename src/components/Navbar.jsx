@@ -3,21 +3,26 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
-// import { FaInstagram } from "react-icons/fa";
-// import { FaSquareXTwitter} from "react-icons/fa6";
-// import Flag from "react-country-flag";
-import flags from 'emoji-flags';
 
-import { Socials } from "../constants";
-import { Contacts } from "../constants";
+// import flags from 'emoji-flags';
+
+import { Socials, Contacts } from "../constants";
 import '../i18n'
+import Cookies from 'js-cookie';
 import { useTranslation } from "react-i18next"
+import { useEffect } from "react";
 
 function Navbar() {
   const {t, i18n} = useTranslation()
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng)
   }
+  // const lang = Cookies.get('i18next') || "en";
+
+  // useEffect(()=>{
+  //   window.document.dir = i18n.dir();
+  // },[lang])
+
   return (
     <nav className="mb-20 flex items-center justify-between py-5">
       <div className="flex flex-shrink-0 items-center p-2">
@@ -33,15 +38,15 @@ function Navbar() {
         <select  value={i18n.language} onChange={(e) => changeLanguage(e.target.value)} className="ml-1 cursor-pointer rounded-lg border border-gray-700 bg-gray-800 px-2 py-1 text-sm text-white focus:outline-none">
           <option value="en">
               {/* <Flag code="US" fallback={ <span>🇺🇸</span> } style={{ width: 20, height: 20 }}/>&nbsp; EN */}
-              <span>{flags.US.emoji} &nbsp;</span> EN
+              {/* <span>{flags.US.emoji} &nbsp;</span>  */}EN
           </option>
           <option value="fr">
               {/* <Flag code="FR" fallback={ <span>🇫🇷</span> } style={{ width: 20, height: 20 }}/>&nbsp; FR */}
-              <span>{flags.FR.emoji} &nbsp;</span> FR
+              {/* <span>{flags.FR.emoji} &nbsp;</span>  */} FR
           </option>
           <option value="de">
               {/* <Flag code="DE" fallback={ <span>🇩🇪</span> } style={{ width: 20, height: 20 }}/>&nbsp; DE */}
-              <span>{flags.DE.emoji} &nbsp;</span> DE
+              {/* <span>{flags.DE.emoji} &nbsp;</span>  */}DE
           </option>
         </select>
       </div>

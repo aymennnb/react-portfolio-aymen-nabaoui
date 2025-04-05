@@ -5,6 +5,8 @@ import { useTranslation } from "react-i18next";
 function Experience() {
     const { t } = useTranslation();
     const experiences = t("Experience.items", { returnObjects: true });
+
+    
   return (
     <div className="border-b border-neutral-900 pb-4">
         <motion.h2 

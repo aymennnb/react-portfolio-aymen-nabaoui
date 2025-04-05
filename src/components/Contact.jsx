@@ -16,7 +16,7 @@ function Contact() {
         initial={{opacity:0,y:100}}
         transition={{duration:1}}
         className="text-center tracking-tighter">
-            <p className="my-4">{Contacts.address}</p>
+            <p className="my-4">{t("footer.address")}</p>
             <p whileInView={{ opacity: 1, y: 0 }}
             initial={{opacity:0,y:100}}
             transition={{duration:1}}
