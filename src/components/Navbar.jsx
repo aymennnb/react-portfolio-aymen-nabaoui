@@ -2,11 +2,22 @@ import logo from "../assets/kevinRushLogo.png";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
+import { IoMail } from "react-icons/io5";
 // import { FaInstagram } from "react-icons/fa";
 // import { FaSquareXTwitter} from "react-icons/fa6";
+// import Flag from "react-country-flag";
+import flags from 'emoji-flags';
+
 import { Socials } from "../constants";
+import { Contacts } from "../constants";
+import '../i18n'
+import { useTranslation } from "react-i18next"
 
 function Navbar() {
+  const {t, i18n} = useTranslation()
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng)
+  }
   return (
     <nav className="mb-20 flex items-center justify-between py-5">
       <div className="flex flex-shrink-0 items-center p-2">
@@ -18,6 +29,21 @@ function Navbar() {
         <a href={Socials.linkdin}><FaLinkedin /></a>
         <a href={Socials.github}><FaGithub /></a>
         <a href={`https://wa.me/${Socials.whatsapp}`}><FaWhatsapp /></a>
+        <a href={`mailto:${Contacts.email}`}><IoMail /></a>
+        <select  value={i18n.language} onChange={(e) => changeLanguage(e.target.value)} className="ml-1 cursor-pointer rounded-lg border border-gray-700 bg-gray-800 px-2 py-1 text-sm text-white focus:outline-none">
+          <option value="en">
+              {/* <Flag code="US" fallback={ <span>🇺🇸</span> } style={{ width: 20, height: 20 }}/>&nbsp; EN */}
+              <span>{flags.US.emoji} &nbsp;</span> EN
+          </option>
+          <option value="fr">
+              {/* <Flag code="FR" fallback={ <span>🇫🇷</span> } style={{ width: 20, height: 20 }}/>&nbsp; FR */}
+              <span>{flags.FR.emoji} &nbsp;</span> FR
+          </option>
+          <option value="de">
+              {/* <Flag code="DE" fallback={ <span>🇩🇪</span> } style={{ width: 20, height: 20 }}/>&nbsp; DE */}
+              <span>{flags.DE.emoji} &nbsp;</span> DE
+          </option>
+        </select>
       </div>
     </nav>
   );

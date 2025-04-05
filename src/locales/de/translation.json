@@ -1,0 +1,95 @@
+{
+    "hero": {
+      "name": "Nabaoui Aymen",
+      "position": "Full Stack Entwickler",
+      "description": "Ich bin ein leidenschaftlicher Full Stack Entwickler mit einer Begabung für die Erstellung robuster und skalierbarer Webanwendungen. Mit 5 Jahren praktischer Erfahrung habe ich meine Fähigkeiten in Front-End-Technologien wie React und Next.js sowie in Back-End-Technologien wie Node.js, MySQL, PostgreSQL und MongoDB geschärft. Mein Ziel ist es, meine Expertise zu nutzen, um innovative Lösungen zu schaffen, die das Unternehmenswachstum fördern und außergewöhnliche Benutzererlebnisse liefern."
+    },
+    "about": {
+      "title": "Über mich",
+      "description": "Ich bin ein engagierter und vielseitiger Full Stack Entwickler mit einer Leidenschaft für die Erstellung effizienter und benutzerfreundlicher Webanwendungen. Mit 5 Jahren beruflicher Erfahrung habe ich mit einer Vielzahl von Technologien gearbeitet, darunter React, Next.js, Node.js, MySQL, PostgreSQL und MongoDB. Meine Reise im Webentwicklungsbereich begann mit einer tiefen Neugierde, wie Dinge funktionieren, und hat sich zu einer Karriere entwickelt, in der ich kontinuierlich bestrebt bin, zu lernen und mich an neue Herausforderungen anzupassen. Ich gedeihe in kollaborativen Umfeldern und genieße es, komplexe Probleme zu lösen, um qualitativ hochwertige Lösungen zu liefern. Abgesehen vom Coden bleibe ich gerne aktiv, entdecke neue Technologien und trage zu Open-Source-Projekten bei."
+    },
+    "technologies": {
+      "title":"Technologien"
+    },
+    "Experience": {
+      "title": "Erfahrungen",
+      "items": [
+        {
+          "year": "2023 - Gegenwart",
+          "role": "Senior Full Stack Entwickler",
+          "company": "Google Inc.",
+          "description": "Leitete ein Team bei der Entwicklung und Wartung von Webanwendungen unter Verwendung von JavaScript, React.js und Node.js. Implementierte RESTful APIs und integrierte sie mit MongoDB-Datenbanken. Zusammenarbeit mit Stakeholdern zur Definition von Projektanforderungen und Zeitplänen.",
+          "technologies": ["JavaScript", "React.js", "Next.js", "mongoDB"]
+        },
+        {
+          "year": "2022 - 2023",
+          "role": "Frontend Entwickler",
+          "company": "Adobe",
+          "description": "Designte und entwickelte Benutzeroberflächen für Webanwendungen unter Verwendung von Next.js und React. Arbeitet eng mit Backend-Entwicklern zusammen, um Frontend-Komponenten mit Node.js-APIs zu integrieren. Implementierte responsive Designs und optimierte die Frontend-Leistung.",
+          "technologies": ["HTML", "CSS", "Vue.js", "mySQL"]
+        },
+        {
+          "year": "2021 - 2022",
+          "role": "Full Stack Entwickler",
+          "company": "Facebook",
+          "description": "Entwickelte und pflegte Webanwendungen unter Verwendung von JavaScript, React.js und Node.js. Designte und implementierte RESTful APIs für die Datenkommunikation. Zusammenarbeit mit funktionsübergreifenden Teams, um qualitativ hochwertige Softwareprodukte termingerecht zu liefern.",
+          "technologies": ["Python", "Svelte", "Three.js", "Postgres"]
+        },
+        {
+          "year": "2020 - 2021",
+          "role": "Software Ingenieur",
+          "company": "Paypal",
+          "description": "Trug zur Entwicklung von Webanwendungen unter Verwendung von JavaScript, React.js und Node.js bei. Verwaltete Datenbanken und implementierte Datenspeicherlösungen mit MongoDB. Arbeitet eng mit Produktmanagern zusammen, um Funktionen und Verbesserungen zu priorisieren.",
+          "technologies": ["Ruby", "Rails", "PHP", "Sqlite"]
+        }
+      ]
+    },
+    "Projects": {
+      "title": "Projekte",
+      "items": [
+        {
+          "title": "E-Commerce Website",
+          "image": "/assets/projects/project-1.jpg",
+          "description": "Eine voll funktionsfähige E-Commerce-Website mit Funktionen wie Produktauflistung, Warenkorb und Benutzeranmeldung.",
+          "technologies": ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+          "github":{
+            "message": "GitHub-Dokumentation einsehen",
+            "url": "https://www.fotmob.com/de"
+          }
+        },
+        {
+          "title": "Aufgabenverwaltungs-App",
+          "image": "/assets/projects/project-2.jpg",
+          "description": "Eine Anwendung zur Verwaltung von Aufgaben und Projekten mit Funktionen wie Aufgabenerstellung, Zuweisung und Fortschrittsverfolgung.",
+          "technologies": ["HTML", "CSS", "Angular", "Firebase"],
+          "github":{
+            "message": "GitHub-Dokumentation einsehen",
+            "url": "https://www.fotmob.com/de"
+          }
+        },
+        {
+          "title": "Portfolio-Website",
+          "image": "/assets/projects/project-3.jpg",
+          "description": "Eine persönliche Portfolio-Website zur Präsentation von Projekten, Fähigkeiten und Kontaktinformationen.",
+          "technologies": ["HTML", "CSS", "React", "Bootstrap"],
+          "github":{
+            "message": "GitHub-Dokumentation einsehen",
+            "url": "https://www.fotmob.com/de"
+          }
+        },
+        {
+          "title": "Blogging-Plattform",
+          "image": "/assets/projects/project-4.jpg",
+          "description": "Eine Plattform zum Erstellen und Veröffentlichen von Blogbeiträgen mit Funktionen wie Rich-Text-Editor, Kommentaren und Benutzerprofilen.",
+          "technologies": ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+          "github":{
+            "message": "GitHub-Dokumentation einsehen",
+            "url": "https://www.fotmob.com/de"
+          }
+        }
+      ]
+    },
+    "footer":{
+      "title":"Kontakt aufnehmen"
+    }
+} 

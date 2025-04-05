@@ -17,6 +17,7 @@ import { FaGitlab } from "react-icons/fa6";
 import { FaJenkins } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { easeIn, motion } from "motion/react";
+import { useTranslation } from "react-i18next";
 
 const iconVariants = (duration) => ({
     initial:{y:-10},
@@ -32,13 +33,14 @@ const iconVariants = (duration) => ({
 });
 
 function Technologie() {
+    const { t } = useTranslation();
   return (
     <div className="border-b  border-neutral-800 pb-24">
         <motion.h2 
         whileInView={{ opacity: 1, y: 0 }}
         initial={{opacity:0,y:-100}}
         transition={{duration:0.5}}
-        className="my-20 text-center text-4xl">Technologies</motion.h2>
+        className="my-20 text-center text-4xl">{t('technologies.title')}</motion.h2>
         <motion.div 
         whileInView={{ opacity: 1, x: 0 }}
         initial={{opacity:0,x:-100}}
@@ -51,15 +53,15 @@ function Technologie() {
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <RiReactjsLine className="text-7xl text-cyan-400"/>
             </motion.div>
-            <motion.div y
-            variants={iconVariants(2)}
+            <motion.div
+            variants={iconVariants(3.5)}
             initial="initial"
             animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <FaLaravel className="text-7xl text-red-600"/>
             </motion.div>
             <motion.div 
-            variants={iconVariants(3.5)}
+            variants={iconVariants(2)}
             initial="initial"
             animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4">
@@ -73,14 +75,14 @@ function Technologie() {
                 <RiTailwindCssFill  className="text-7xl text-blue-500"/>
             </motion.div>
             <motion.div 
-            variants={iconVariants(4)}
+            variants={iconVariants(3.5)}
             initial="initial"
             animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <GrMysql className="text-7xl text-[#4479A1]"/>
             </motion.div>
             <motion.div
-            variants={iconVariants(3)}
+            variants={iconVariants(2)}
             initial="initial"
             animate="animate" 
             className="rounded-2xl border-4 border-neutral-800 p-4">
@@ -102,11 +104,15 @@ function Technologie() {
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <FaPhp className="text-7xl text-[#777BB4]" />
             </motion.div>
-            {/* <div className="rounded-2xl border-4 border-neutral-800 p-4">
+            <motion.div 
+            variants={iconVariants(3.5)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-neutral-800 p-4">
                 <FaPython className="text-7xl text-[#3776AB]" />
-            </div> */}
+            </motion.div>
             <motion.div
-            variants={iconVariants(5)}
+            variants={iconVariants(2)}
             initial="initial"
             animate="animate" 
             className="rounded-2xl border-4 border-neutral-800 p-4">
@@ -129,7 +135,7 @@ function Technologie() {
                 <GrDocker className="text-7xl text-[#2496ED]" />
             </motion.div>
             <motion.div 
-            variants={iconVariants(2)}
+            variants={iconVariants(1.5)}
             initial="initial"
             animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4">

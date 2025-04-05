@@ -70,7 +70,7 @@ export const Projects = [
 ];
 
 export const Contacts = {
-  address: "Sidi Moumen, Casablanca, Morocco",
+  address: "Casablanca , Morocco",
   phone: "+212 637 370 397",
   email: "aymen.nabaoui.dev@gmail.com",
 };

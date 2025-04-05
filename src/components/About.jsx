@@ -1,15 +1,13 @@
 import AboutImg from "../assets/about.jpg";
 import { MyAbout } from "../constants";
 import { motion } from "motion/react";
-
+import { useTranslation } from "react-i18next";
 
 function About() {
+  const { t } = useTranslation();
   return (
     <div className="border-b border-neutral-900 pb-4">
-        <h2 className="my-20 text-center text-4xl">
-            About
-            <span className="text-neutral-500"> Me</span>
-        </h2>
+        <h2 className="my-20 text-center text-4xl">{t("about.title")}</h2>
         <div className="flex flex-wrap">
             <div className="w-full lg:w-1/2 lg:p-8">
                 <motion.div
@@ -26,7 +24,7 @@ function About() {
                 initial={{opacity:0,x:100}}
                 transition={{duration:0.5}}
                 className="flex justify-center lg:justify-start">
-                    <p className="my-2 max-w-xl py-6">{MyAbout}</p>
+                    <p className="my-2 max-w-xl py-6">{t("about.description")}</p>
                 </motion.div>
             </div>
         </div>
