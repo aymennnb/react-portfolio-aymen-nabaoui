@@ -1,8 +1,5 @@
-import { Description } from "../constants"
 import { motion } from "motion/react"
-import PhotoProfile from "../assets/kevinRushProfile.png"
-// import PhotoProfile from "../assets/NabaouiAymenProfile.png"
-// import { useTranslation,initReactI18next } from "react-i18next";
+import PhotoProfile from "/assets/kevinRushProfile.png"
 import { useTranslation } from "react-i18next";
 
 const container = (delay) => ({

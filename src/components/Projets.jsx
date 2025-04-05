@@ -1,4 +1,3 @@
-// import { Projects } from "../constants"
 import { motion } from "motion/react"
 import { useTranslation } from "react-i18next"
 import { FaGithub } from "react-icons/fa";

@@ -1,5 +1,4 @@
-import AboutImg from "../assets/about.jpg";
-import { MyAbout } from "../constants";
+import AboutImg from "/assets/about.jpg";
 import { motion } from "motion/react";
 import { useTranslation } from "react-i18next";
 
