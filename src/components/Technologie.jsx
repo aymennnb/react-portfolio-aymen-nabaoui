@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa6";
 import { GrMysql } from "react-icons/gr";
 import { FaHtml5 } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io";
-import { IoLogoJavascript } from "react-icons/io5";
+import { RiJavascriptFill } from "react-icons/ri";
 import { FaPhp } from "react-icons/fa6";
 import { FaPython } from "react-icons/fa6";
 import { FaBootstrap } from "react-icons/fa6";
@@ -18,6 +18,11 @@ import { FaJenkins } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { easeIn, motion } from "motion/react";
 import { useTranslation } from "react-i18next";
+import { FaWordpress } from "react-icons/fa";
+import FigmaIcon from "./icons/FigmaIcon";
+import FramerIcon from "./icons/FramerIcon";
+import PythonIcon from "./icons/PythonIcon ";
+import { SiJira } from "react-icons/si";
 
 const iconVariants = (duration) => ({
     initial:{y:-10},
@@ -82,21 +87,47 @@ function Technologie() {
                 <GrMysql className="text-7xl text-[#4479A1]"/>
             </motion.div>
             <motion.div
+            variants={iconVariants(2.3)}
+            initial="initial"
+            animate="animate" 
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+                <PythonIcon/>
+            </motion.div>
+            <motion.div
             variants={iconVariants(2)}
             initial="initial"
             animate="animate" 
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <FaGithub className="text-7xl text-neutral-50"/>
             </motion.div>
-            {/* <div className="rounded-2xl border-4 border-neutral-800 p-4">
+            <motion.div
+            variants={iconVariants(3.5)}
+            initial="initial"
+            animate="animate" 
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+                <FaWordpress  className="text-7xl text-[#21759b]"/>
+            </motion.div>
+            <motion.div 
+            variants={iconVariants(2)}
+            initial="initial"
+            animate="animate" 
+            className="rounded-2xl border-4 border-neutral-800 p-4">
                 <FaHtml5 className="text-7xl text-[#E34F26]" />
-            </div>
-            <div className="rounded-2xl border-4 border-neutral-800 p-4">
+            </motion.div>
+            <motion.div 
+            variants={iconVariants(3.5)}
+            initial="initial"
+            animate="animate" 
+            className="rounded-2xl border-4 border-neutral-800 p-4">
                 <IoLogoCss3 className="text-7xl text-[#1572B6]" />
-            </div> */}
-            {/* <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                <IoLogoJavascript className="text-7xl text-[#F7DF1E]" />
-            </div> */}
+            </motion.div>
+            <motion.div 
+            variants={iconVariants(2.5)}
+            initial="initial"
+            animate="animate" 
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+                <RiJavascriptFill className="text-7xl text-[#F7DF1E]" />
+            </motion.div>
             <motion.div 
             variants={iconVariants(3.5)}
             initial="initial"
@@ -105,28 +136,26 @@ function Technologie() {
                 <FaPhp className="text-7xl text-[#777BB4]" />
             </motion.div>
             <motion.div 
-            variants={iconVariants(3.5)}
+            variants={iconVariants(2)}
             initial="initial"
             animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4">
-                <FaPython className="text-7xl text-[#3776AB]" />
+                <SiJira className="text-7xl text-[#0052CC]" />
             </motion.div>
             <motion.div
-            variants={iconVariants(2)}
+            variants={iconVariants(3)}
             initial="initial"
             animate="animate" 
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <FaBootstrap className="text-7xl text-[#7952B3]" />
             </motion.div>
-            {/* <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                <FaJira className="text-7xl text-[#0052CC]" />
-            </div> */}
-            {/* <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                <FaFigma className="text-7xl text-[#A259FF]" />
-            </div> */}
-            {/* <div className="rounded-2xl border-4 border-neutral-800 p-4">
+            <motion.div 
+            variants={iconVariants(2.5)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-neutral-800 p-4">
                 <SiSonarqube className="text-7xl text-[#4E9BCD]" />
-            </div> */}
+            </motion.div>
             <motion.div 
             variants={iconVariants(3.5)}
             initial="initial"
@@ -141,9 +170,20 @@ function Technologie() {
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <FaGitlab className="text-7xl text-[#FC6D26]" />
             </motion.div>
-            {/* <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                <FaJenkins className="text-7xl text-[#D24939]" />
-            </div> */}
+            <motion.div 
+            variants={iconVariants(2.5)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+            <FigmaIcon />        
+            </motion.div>
+            <motion.div 
+            variants={iconVariants(2)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+            <FramerIcon/>     
+            </motion.div>
         </motion.div>
     </div>
   )

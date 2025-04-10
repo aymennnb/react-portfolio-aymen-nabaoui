@@ -5,9 +5,9 @@ import { IoMail } from "react-icons/io5";
 
 import { Socials, Contacts } from "../constants";
 import '../i18n'
-import Cookies from 'js-cookie';
+// import Cookies from 'js-cookie';
 import { useTranslation } from "react-i18next"
-import { useEffect } from "react";
+// import { useEffect } from "react";
 
 function Navbar() {
   const {t, i18n} = useTranslation()
@@ -26,9 +26,9 @@ function Navbar() {
         <p style={{fontSize:'43px'}}><a href="#">NA</a></p>
       </div>
       <div className="m-8 flex items-center justify-content gap-4 text-3xl">
-        <a href={Socials.linkdin}><FaLinkedin /></a>
-        <a href={Socials.github}><FaGithub /></a>
-        <a href={`https://wa.me/${Socials.whatsapp}`}><FaWhatsapp /></a>
+        <a href={Socials.linkdin} target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+        <a href={Socials.github} target="_blank" rel="noopener noreferrer" ><FaGithub /></a>
+        <a href={`https://wa.me/${Socials.whatsapp}`} target="_blank" rel="noopener noreferrer" ><FaWhatsapp /></a>
         <a href={`mailto:${Contacts.email}`}><IoMail /></a>
         <select  value={i18n.language} onChange={(e) => changeLanguage(e.target.value)} className="ml-1 cursor-pointer rounded-lg border border-gray-700 bg-gray-800 px-2 py-1 text-sm text-white focus:outline-none">
           <option value="en">EN</option>
