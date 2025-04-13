@@ -15,80 +15,70 @@
       "title": "Experiences",
       "items": [
         {
-          "year": "2023 - Present",
-          "role": "Senior Full Stack Developer",
-          "company": "Google Inc.",
-          "description": "Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.",
-          "technologies": ["Javascript", "React.js", "Next.js", "mongoDB"]
-        },
-        {
-          "year": "2022 - 2023",
-          "role": "Frontend Developer",
-          "company": "Adobe",
-          "description": "Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.",
-          "technologies": ["HTML", "CSS", "Vue.js", "mySQL"]
-        },
-        {
-          "year": "2021 - 2022",
-          "role": "Full Stack Developer",
-          "company": "Facebook",
-          "description": "Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.",
-          "technologies": ["Python", "Svelte", "Three.js", "Postgres"]
-        },
-        {
-          "year": "2020 - 2021",
-          "role": "Software Engineer",
-          "company": "Paypal",
-          "description": "Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.",
-          "technologies": ["Ruby", "Rails", "PHP", "Sqlite"]
-        }
+          "year": "04/2025 - Present",
+          "role": "Junior Full Stack Developer",
+          "company": "M-Automotiv",
+          "description": "Led the development and maintenance of web applications using React.js, Laravel, and Node.js. Implemented RESTful APIs and integrated them with MongoDB databases. Worked closely with stakeholders to define project requirements and timelines.",
+          "technologies": ["React.js", "Laravel", "MongoDB", "Tailwind CSS"]
+        }        
       ]
     },
     "Projects":{
       "title": "Projects",
       "items": [
         {
-          "title": "E-Commerce Website",
-          "image": "/assets/projects/project-1.jpg",
+          "title": "Personal Portfolio Website",
+          "image": "",
           "description":
-            "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-          "technologies": ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-          "github":{
+            "Development of a portfolio site featuring my information, experience, projects, and technologies used, with a contact section.",
+          "technologies": ["React.js", "Tailwind CSS"],
+          "github": {
             "message": "Consult the GitHub documentation",
-            "url": "https://www.fotmob.com/de"
+            "url": "https://github.com/aymennnb/aymen-nabaoui-dev"
           }
         },
         {
-          "title": "Task Management App",
-          "image": "/assets/projects/project-2.jpg",
+          "title": "HR Management Application",
+          "image": "",
           "description":
-            "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-          "technologies": ["HTML", "CSS", "Angular", "Firebase"],
-          "github":{
+            "Web application for managing employees, their contracts, salaries, and leaves, with a dashboard for overall tracking in SMEs.",
+          "technologies": ["React.js", "Laravel", "MySQL", "CSS"],
+          "github": {
             "message": "Consult the GitHub documentation",
-            "url": "https://www.fotmob.com/de"
+            "url": "https://github.com/aymennnb/GRH"
           }
         },
         {
-          "title": "Portfolio Website",
-          "image": "/assets/projects/project-3.jpg",
+          "title": "School Management System",
+          "image": "",
           "description":
-            "A personal portfolio website showcasing projects, skills, and contact information.",
-          "technologies": ["HTML", "CSS", "React", "Bootstrap"],
-          "github":{
+            "Educational platform for managing students, teachers, subjects, classes, and assigning academic years.",
+          "technologies": ["Laravel", "MySQL", "CSS"],
+          "github": {
             "message": "Consult the GitHub documentation",
-            "url": "https://www.fotmob.com/de"
+            "url": "https://github.com/aymennnb/SchoollManagementAPP"
           }
         },
         {
-          "title": "Blogging Platform",
-          "image": "/assets/projects/project-4.jpg",
+          "title": "Intern Registration Platform",
+          "image": "",
           "description":
-            "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-          "technologies": ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-          "github":{
+            "Web application for registering, validating, or rejecting interns based on their personal information and acceptance criteria.",
+          "technologies": ["PHP", "MySQL", "Bootstrap", "CSS", "JavaScript"],
+          "github": {
             "message": "Consult the GitHub documentation",
-            "url": "https://www.fotmob.com/de"
+            "url": "https://github.com/aymennnb/trainee-registration-management"
+          }
+        },
+        {
+          "title": "Online Clothing Store",
+          "image": "",
+          "description":
+            "E-commerce website for clothing made with HTML and CSS, featuring categories, available products, contact form, and shop info.",
+          "technologies": ["HTML", "CSS"],
+          "github": {
+            "message": "Consult the GitHub documentation",
+            "url": "https://github.com/aymennnb/fashion-ecommerce"
           }
         }
       ]

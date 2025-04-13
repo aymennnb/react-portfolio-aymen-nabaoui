@@ -23,6 +23,7 @@ import FigmaIcon from "./icons/FigmaIcon";
 import FramerIcon from "./icons/FramerIcon";
 import PythonIcon from "./icons/PythonIcon ";
 import { SiJira } from "react-icons/si";
+import Nodejs from "./icons/Nodejs";
 
 const iconVariants = (duration) => ({
     initial:{y:-10},
@@ -155,6 +156,13 @@ function Technologie() {
             animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <SiSonarqube className="text-7xl text-[#4E9BCD]" />
+            </motion.div>
+            <motion.div 
+            variants={iconVariants(1.5)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+                <Nodejs className="text-7xl" />
             </motion.div>
             <motion.div 
             variants={iconVariants(3.5)}
