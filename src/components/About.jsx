@@ -1,4 +1,4 @@
-import AboutImg from "/assets/about.jpg";
+import AboutImg from "/assets/AboutWat.jpg";
 import { motion } from "motion/react";
 import { useTranslation } from "react-i18next";
 
@@ -14,7 +14,11 @@ function About() {
                 initial={{opacity:0,x:-100}}
                 transition={{duration:0.5}}
                 className="flex items-center justify-center">
-                    <img  className="rounded-2xl" src={AboutImg} alt="about" />
+                    <img  
+                    className="w-full max-w-sm lg:max-w-md rounded-2xl object-cover"  
+                    src={AboutImg}  
+                    alt="about"  
+                    />
                 </motion.div> 
             </div>
             <div className="w-full lg:w-1/2">
@@ -22,7 +26,7 @@ function About() {
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{opacity:0,x:100}}
                 transition={{duration:0.5}}
-                className="flex justify-center lg:justify-start">
+                className="flex justify-center lg:justify-start py-5">
                     <p className="my-2 max-w-xl py-6">{t("about.description")}</p>
                 </motion.div>
             </div>

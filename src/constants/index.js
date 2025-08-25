@@ -71,7 +71,7 @@
 
 export const Contacts = {
   address: "Casablanca , Morocco",
-  phone: "+212 637 370 397",
+  phone: "+(212) 637 370 397",
   email: "aymen.nabaoui.dev@gmail.com",
 };
 

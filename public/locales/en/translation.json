@@ -1,84 +1,70 @@
 {
     "hero": {
       "name": "Nabaoui Aymen",
-      "position": "Full Stack Developer",
-      "description": "I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences."
+      "position": "Full Stack Web Developer",
+      "description": "I am a full stack web developer, capable of creating robust, scalable, and high-performance web applications. I have gained skills in front-end technologies such as React, Angular, and Redux, as well as back-end technologies like Node.js, Laravel, and PHP, and in managing SQL and NoSQL databases. My goal is to leverage my expertise to deliver innovative solutions that drive business growth and provide high-quality user experiences."
     },
     "about": {
       "title": "About Me",
-      "description": "I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects."
+      "description": "I am a recent graduate in digital development, specializing in full stack web development at the beginning of my career, focused on designing and building modern web applications. My journey in web development began with a strong curiosity about how things work and has evolved into a career where I strive to constantly learn and adapt to new challenges. Through my education and practical projects, I have gained solid skills in technologies such as React, Node.js, Angular, Laravel, MySQL, and MongoDB, while using collaborative tools like GitHub, GitLab, Jira, and Docker. What motivates me most is the ability to transform an idea into a concrete, intuitive, and high-quality solution for users. I place great importance on organization, code clarity, and the continuous improvement of my skills."
     },
     "technologies": {
       "title":"Technologies"
     },
     "Experience": {
       "title": "Experiences",
+      "techusing" : "Technologies used",
       "items": [
         {
-          "year": "04/2025 - Present",
-          "role": "Junior Full Stack Developer",
+          "year": "14/04/2025 - 17/05/2025",
+          "role": "Intern as a Full Stack Web Developer",
           "company": "M-Automotiv",
-          "description": "Led the development and maintenance of web applications using React.js, Laravel, and Node.js. Implemented RESTful APIs and integrated them with MongoDB databases. Worked closely with stakeholders to define project requirements and timelines.",
-          "technologies": ["React.js", "Laravel", "MongoDB", "Tailwind CSS"]
-        }        
+          "description": "Internship carried out as part of my training, with the main objective of designing and developing a complete web application dedicated to the geolocation and document management of the company M-AUTOMOTIV’s sites across Morocco.",
+          "technologies": ["React.js", "Laravel", "MySQL", "Tailwind CSS", "Figma", "UML"]
+        }      
       ]
     },
     "Projects":{
       "title": "Projects",
       "items": [
         {
-          "title": "Personal Portfolio Website",
-          "image": "",
-          "description":
-            "Development of a portfolio site featuring my information, experience, projects, and technologies used, with a contact section.",
-          "technologies": ["React.js", "Tailwind CSS"],
+          "title": "Web Application for Site Geolocation and Document Management",
+          "image": "../assets/projects/geoloca.png",
+          "description": "M-LOCATION is a complete web application for site geolocation and document management for the company M-AUTOMOTIV. It allows users to visualize sites on an interactive map, manage associated documents, and control access according to user roles.",
+          "technologies": ["React.js", "Laravel", "Leaflet API", "Inertia.js", "MySQL", "Tailwind CSS"],
           "github": {
-            "message": "Consult the GitHub documentation",
-            "url": "https://github.com/aymennnb/aymen-nabaoui-dev"
+            "message": "Check the project on GitHub",
+            "url": "https://github.com/aymennnb/geo-manager/tree/feature"
           }
         },
         {
           "title": "HR Management Application",
-          "image": "",
-          "description":
-            "Web application for managing employees, their contracts, salaries, and leaves, with a dashboard for overall tracking in SMEs.",
-          "technologies": ["React.js", "Laravel", "MySQL", "CSS"],
+          "image": "../assets/projects/hrConnect.png",
+          "description": "HR-Connect is a web application to manage human resources for a company, such as employees, departments, contracts, salaries, and leave, with a dashboard for overall tracking and activity logs.",
+          "technologies": ["React.js", "Laravel", "MySQL", "Inertia.js", "Tailwind CSS"],
           "github": {
-            "message": "Consult the GitHub documentation",
-            "url": "https://github.com/aymennnb/GRH"
+            "message": "Check the project on GitHub",
+            "url": "https://github.com/aymennnb/HR-COnnect"
           }
         },
         {
-          "title": "School Management System",
-          "image": "",
-          "description":
-            "Educational platform for managing students, teachers, subjects, classes, and assigning academic years.",
-          "technologies": ["Laravel", "MySQL", "CSS"],
+          "title": "Trainee Registration Platform",
+          "image": "../assets/projects/trainee_registration.png",
+          "description": "This web application allows the registration of trainees, validation or rejection of their applications based on personal information and predefined criteria. It facilitates registration management.",
+          "technologies": ["PHP", "HTML", "MySQL", "Bootstrap", "CSS", "JavaScript"],
           "github": {
-            "message": "Consult the GitHub documentation",
-            "url": "https://github.com/aymennnb/SchoollManagementAPP"
-          }
-        },
-        {
-          "title": "Intern Registration Platform",
-          "image": "",
-          "description":
-            "Web application for registering, validating, or rejecting interns based on their personal information and acceptance criteria.",
-          "technologies": ["PHP", "MySQL", "Bootstrap", "CSS", "JavaScript"],
-          "github": {
-            "message": "Consult the GitHub documentation",
+            "message": "Check the project on GitHub",
             "url": "https://github.com/aymennnb/trainee-registration-management"
           }
         },
         {
-          "title": "Online Clothing Store",
-          "image": "",
-          "description":
-            "E-commerce website for clothing made with HTML and CSS, featuring categories, available products, contact form, and shop info.",
-          "technologies": ["HTML", "CSS"],
+          "title": "Tic Tac Toe Game",
+          "image": "../assets/projects/TicTacToe.png",
+          "description": "This Tic Tac Toe game is a mini-project allowing two players to compete, automatically detects the winner or a draw, and offers the possibility to restart a game.",
+          "technologies": ["HTML", "CSS", "JavaScript"],
           "github": {
-            "message": "Consult the GitHub documentation",
-            "url": "https://github.com/aymennnb/fashion-ecommerce"
+            "message": "Check the project on GitHub",
+            "url": "https://github.com/aymennnb/Tic-Tac-Toe-Game"
           }
         }
       ]

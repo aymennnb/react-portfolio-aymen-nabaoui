@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa6";
 import { GrMysql } from "react-icons/gr";
 import { FaHtml5 } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io";
-import { RiJavascriptFill } from "react-icons/ri";
+import { SiJavascript } from "react-icons/si";
 import { FaPhp } from "react-icons/fa6";
 import { FaPython } from "react-icons/fa6";
 import { FaBootstrap } from "react-icons/fa6";
@@ -24,6 +24,8 @@ import FramerIcon from "./icons/FramerIcon";
 import PythonIcon from "./icons/PythonIcon ";
 import { SiJira } from "react-icons/si";
 import Nodejs from "./icons/Nodejs";
+import AngularIcon from "./icons/AngularIcon"
+import ReduxIcon from "./icons/ReduxIcon"
 
 const iconVariants = (duration) => ({
     initial:{y:-10},
@@ -53,23 +55,10 @@ function Technologie() {
         transition={{duration:1.5}}
         className="flex flex-wrap items-center justify-center gap-4">
             <motion.div 
-            variants={iconVariants(2.5)}
-            initial="initial"
-            animate="animate"
-            className="rounded-2xl border-4 border-neutral-800 p-4">
-                <RiReactjsLine className="text-7xl text-cyan-400"/>
-            </motion.div>
-            <motion.div
-            variants={iconVariants(3.5)}
-            initial="initial"
-            animate="animate"
-            className="rounded-2xl border-4 border-neutral-800 p-4">
-                <FaLaravel className="text-7xl text-red-600"/>
-            </motion.div>
-            <motion.div 
             variants={iconVariants(2)}
             initial="initial"
             animate="animate"
+            title="MongoDB"
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <SiMongodb className="text-7xl text-green-500"/>
             </motion.div>
@@ -77,20 +66,47 @@ function Technologie() {
             variants={iconVariants(2.5)}
             initial="initial"
             animate="animate"
+            title="React.js"
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+                <RiReactjsLine className="text-7xl text-cyan-400"/>
+            </motion.div>
+            <motion.div 
+            variants={iconVariants(2.5)}
+            initial="initial"
+            animate="animate"
+            title="Tailwind CSS"
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <RiTailwindCssFill  className="text-7xl text-blue-500"/>
+            </motion.div>
+            <motion.div
+            variants={iconVariants(3.5)}
+            initial="initial"
+            animate="animate"
+            title="Laravel"
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+                <FaLaravel className="text-7xl text-red-600"/>
             </motion.div>
             <motion.div 
             variants={iconVariants(3.5)}
             initial="initial"
             animate="animate"
+            title="Mysql"
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <GrMysql className="text-7xl text-[#4479A1]"/>
+            </motion.div>
+            <motion.div 
+            variants={iconVariants(1.5)}
+            initial="initial"
+            animate="animate"
+            title="Angular"
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+                <AngularIcon className="text-7xl" />
             </motion.div>
             <motion.div
             variants={iconVariants(2.3)}
             initial="initial"
             animate="animate" 
+            title="Python"
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <PythonIcon/>
             </motion.div>
@@ -98,13 +114,15 @@ function Technologie() {
             variants={iconVariants(2)}
             initial="initial"
             animate="animate" 
+            title="GitHub"
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <FaGithub className="text-7xl text-neutral-50"/>
             </motion.div>
             <motion.div
             variants={iconVariants(3.5)}
             initial="initial"
-            animate="animate" 
+            animate="animate"
+            title="Wordpress" 
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <FaWordpress  className="text-7xl text-[#21759b]"/>
             </motion.div>
@@ -112,6 +130,7 @@ function Technologie() {
             variants={iconVariants(2)}
             initial="initial"
             animate="animate" 
+            title="HTML5"
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <FaHtml5 className="text-7xl text-[#E34F26]" />
             </motion.div>
@@ -119,6 +138,7 @@ function Technologie() {
             variants={iconVariants(3.5)}
             initial="initial"
             animate="animate" 
+            title="CSS3"
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <IoLogoCss3 className="text-7xl text-[#1572B6]" />
             </motion.div>
@@ -126,13 +146,15 @@ function Technologie() {
             variants={iconVariants(2.5)}
             initial="initial"
             animate="animate" 
+            title="JavaScript"
             className="rounded-2xl border-4 border-neutral-800 p-4">
-                <RiJavascriptFill className="text-7xl text-[#F7DF1E]" />
+                <SiJavascript className="text-7xl text-[#F7DF1E]" />
             </motion.div>
             <motion.div 
             variants={iconVariants(3.5)}
             initial="initial"
             animate="animate"
+            title="PHP"
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <FaPhp className="text-7xl text-[#777BB4]" />
             </motion.div>
@@ -140,13 +162,23 @@ function Technologie() {
             variants={iconVariants(2)}
             initial="initial"
             animate="animate"
+            title="Jira"
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <SiJira className="text-7xl text-[#0052CC]" />
+            </motion.div>
+            <motion.div 
+            variants={iconVariants(1.5)}
+            initial="initial"
+            animate="animate"
+            title="Redux.js"
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+                <ReduxIcon className="text-7xl" />
             </motion.div>
             <motion.div
             variants={iconVariants(3)}
             initial="initial"
             animate="animate" 
+            title="Bootstrap"
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <FaBootstrap className="text-7xl text-[#7952B3]" />
             </motion.div>
@@ -154,6 +186,7 @@ function Technologie() {
             variants={iconVariants(2.5)}
             initial="initial"
             animate="animate"
+            title="Sonarqube"
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <SiSonarqube className="text-7xl text-[#4E9BCD]" />
             </motion.div>
@@ -161,6 +194,7 @@ function Technologie() {
             variants={iconVariants(1.5)}
             initial="initial"
             animate="animate"
+            title="Node.js"
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <Nodejs className="text-7xl" />
             </motion.div>
@@ -168,6 +202,7 @@ function Technologie() {
             variants={iconVariants(3.5)}
             initial="initial"
             animate="animate"
+            title="Docker"
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <GrDocker className="text-7xl text-[#2496ED]" />
             </motion.div>
@@ -175,6 +210,7 @@ function Technologie() {
             variants={iconVariants(1.5)}
             initial="initial"
             animate="animate"
+            title="GitLab"
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <FaGitlab className="text-7xl text-[#FC6D26]" />
             </motion.div>
@@ -182,6 +218,7 @@ function Technologie() {
             variants={iconVariants(2.5)}
             initial="initial"
             animate="animate"
+            title="Figma"
             className="rounded-2xl border-4 border-neutral-800 p-4">
             <FigmaIcon />        
             </motion.div>
@@ -189,6 +226,7 @@ function Technologie() {
             variants={iconVariants(2)}
             initial="initial"
             animate="animate"
+            title="Framer motion"
             className="rounded-2xl border-4 border-neutral-800 p-4">
             <FramerIcon/>     
             </motion.div>
